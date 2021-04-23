@@ -68,7 +68,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -20854,6 +20854,14 @@ Source: www.kingbright.com</description>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="LED5" gate="G$1" pin="A"/>
 <wire x1="142.24" y1="119.38" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<wire x1="0" y1="0" x2="287.02" y2="0" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="0" x2="287.02" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="205.74" x2="0" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="0" y1="205.74" x2="0" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
