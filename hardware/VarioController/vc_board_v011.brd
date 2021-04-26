@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -34,29 +34,29 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -76,36 +76,36 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -116,7 +116,7 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <description>&lt;h3&gt;Wifi2Dmx Bridge&lt;/h3&gt;
@@ -145,10 +145,10 @@
 <wire x1="45.72" y1="19.05" x2="54.5" y2="10.16" width="0.1524" layer="20"/>
 <wire x1="54.5" y1="10.16" x2="54.5" y2="-48.5" width="0.1524" layer="20"/>
 <wire x1="54.5" y1="-48.5" x2="48.5" y2="-54.5" width="0.1524" layer="20"/>
-<text x="-22.86" y="39.37" size="2.54" layer="21" ratio="12">5 V (OK)</text>
-<text x="-22.86" y="33.02" size="2.54" layer="21" ratio="12">ENABLE PUMP</text>
-<text x="-22.86" y="26.67" size="2.54" layer="21" ratio="12">STATUS</text>
-<text x="-22.86" y="20.32" size="2.54" layer="21" ratio="12">ERROR</text>
+<text x="-17.78" y="39.37" size="2.54" layer="21" ratio="12">5 V (OK)</text>
+<text x="-17.78" y="33.02" size="2.54" layer="21" ratio="12">ENABLE PUMP</text>
+<text x="-17.78" y="26.67" size="2.54" layer="21" ratio="12">STATUS</text>
+<text x="-17.78" y="20.32" size="2.54" layer="21" ratio="12">ERROR</text>
 <text x="-48.26" y="0" size="1.905" layer="21" ratio="12" rot="SR270" align="top-center">1-Wire
 (2)</text>
 <text x="-48.26" y="-33.02" size="1.905" layer="21" ratio="12" rot="SR270" align="top-center">Pressure
@@ -183,7 +183,7 @@ Switch</text>
 <wire x1="-45.4025" y1="39.0525" x2="-54.61" y2="39.0525" width="0.381" layer="21"/>
 <wire x1="-54.61" y1="39.0525" x2="-54.61" y2="26.9875" width="0.381" layer="21"/>
 <wire x1="-54.61" y1="26.9875" x2="-45.4025" y2="26.9875" width="0.381" layer="21"/>
-<text x="-22.86" y="45.72" size="2.54" layer="21" ratio="12">POWER (OK)</text>
+<text x="-17.78" y="45.72" size="2.54" layer="21" ratio="12">POWER (OK)</text>
 <text x="-41.275" y="-46.355" size="3.2766" layer="21" ratio="12">VarioControl</text>
 <wire x1="-45.4025" y1="26.9875" x2="-35.2425" y2="26.9875" width="0.381" layer="21"/>
 <wire x1="-41.275" y1="-47.625" x2="-18.415" y2="-47.625" width="0.381" layer="21"/>
@@ -201,14 +201,14 @@ Switch</text>
 <circle x="48" y="-48" radius="3.60555" width="0.381" layer="21"/>
 <circle x="48" y="48" radius="3.60555" width="0.381" layer="21"/>
 <circle x="-48" y="48" radius="3.60555" width="0.381" layer="21"/>
-<text x="-33.1225" y="-40.195" size="1.905" layer="21" ratio="10">Power Input
+<text x="-32.805" y="-40.195" size="1.905" layer="21" ratio="10">Power Input
 12 - 36 VDC</text>
 <text x="-10.16" y="2.54" size="1.4478" layer="21" ratio="9" align="bottom-center">Date of manufacture</text>
 <text x="-0.635" y="51.435" size="1.4478" layer="21" ratio="10" align="bottom-center">PCB is optimized for fitting into a TK PC 1309-6-tm from the manufacturer SPELSBERG</text>
-<wire x1="-33.9725" y1="-40.9575" x2="-16.51" y2="-40.9575" width="0.2032" layer="21"/>
+<wire x1="-33.655" y1="-40.9575" x2="-16.51" y2="-40.9575" width="0.2032" layer="21"/>
 <wire x1="-16.51" y1="-40.9575" x2="-16.51" y2="-34.6075" width="0.2032" layer="21"/>
-<wire x1="-16.51" y1="-34.6075" x2="-33.9725" y2="-34.6075" width="0.2032" layer="21"/>
-<wire x1="-33.9725" y1="-34.6075" x2="-33.9725" y2="-40.9575" width="0.2032" layer="21"/>
+<wire x1="-16.51" y1="-34.6075" x2="-33.655" y2="-34.6075" width="0.2032" layer="21"/>
+<wire x1="-33.655" y1="-34.6075" x2="-33.655" y2="-40.9575" width="0.2032" layer="21"/>
 <polygon width="0.2032" layer="21">
 <vertex x="-48.26" y="-26.9875"/>
 <vertex x="-45.4025" y="-29.845"/>
@@ -244,14 +244,14 @@ Switch</text>
 <wire x1="26.67" y1="-16.51" x2="45.72" y2="-16.51" width="0.1778" layer="21" style="shortdash"/>
 <wire x1="45.72" y1="-16.51" x2="46.99" y2="-17.78" width="0.1778" layer="21" style="shortdash" curve="-90"/>
 <text x="45.72" y="-17.78" size="1.8796" layer="21" ratio="11" rot="R180">0 - 10 V circuit</text>
-<wire x1="-1.5875" y1="18.415" x2="-27.6225" y2="18.415" width="0.3048" layer="21"/>
-<wire x1="-27.6225" y1="18.415" x2="-29.5275" y2="20.32" width="0.3048" layer="21" curve="-90"/>
-<wire x1="-29.5275" y1="20.32" x2="-29.5275" y2="48.26" width="0.3048" layer="21"/>
-<wire x1="-29.5275" y1="48.26" x2="-27.6225" y2="50.165" width="0.3048" layer="21" curve="-90"/>
-<wire x1="-27.6225" y1="50.165" x2="-1.905" y2="50.165" width="0.3048" layer="21"/>
-<wire x1="-1.905" y1="50.165" x2="0" y2="48.26" width="0.3048" layer="21" curve="-90"/>
-<wire x1="0" y1="48.26" x2="0" y2="20.32" width="0.3048" layer="21"/>
-<wire x1="0" y1="20.32" x2="-1.5875" y2="18.415" width="0.3048" layer="21" curve="-90"/>
+<wire x1="3.4925" y1="18.415" x2="-23.1775" y2="18.415" width="0.3048" layer="21"/>
+<wire x1="-23.1775" y1="18.415" x2="-25.0825" y2="20.32" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.0825" y1="20.32" x2="-25.0825" y2="48.26" width="0.3048" layer="21"/>
+<wire x1="-25.0825" y1="48.26" x2="-23.1775" y2="50.165" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-23.1775" y1="50.165" x2="3.175" y2="50.165" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="50.165" x2="5.08" y2="48.26" width="0.3048" layer="21" curve="-90"/>
+<wire x1="5.08" y1="48.26" x2="5.08" y2="20.32" width="0.3048" layer="21"/>
+<wire x1="5.08" y1="20.32" x2="3.4925" y2="18.415" width="0.3048" layer="21" curve="-90"/>
 <circle x="-48" y="48" radius="3.60555" width="0.381" layer="22"/>
 <circle x="48" y="48" radius="3.60555" width="0.381" layer="22"/>
 <circle x="-48" y="-48" radius="3.60555" width="0.381" layer="22"/>
@@ -2331,52 +2331,52 @@ Covered vias can be set in Masks (Limit).
 <attribute name="SPICEPREFIX" value="C" x="33.655" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="31.115" y="-30.48" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="D/7343-31W" package3d_urn="urn:adsk.eagle:package:23414/2" value="4u7/50V" x="41.275" y="-33.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="44.6075" y="-29.2875" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="1" x="41.275" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="41.275" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="44.925" y="-29.445" size="1.27" layer="27" rot="R180"/>
+<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="D/7343-31W" package3d_urn="urn:adsk.eagle:package:23414/2" value="4u7/50V" x="40.64" y="-33.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.9725" y="-29.2875" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="1" x="40.64" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="40.64" y="-33.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="44.29" y="-29.445" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="-26.67" y="34.29" smashed="yes" rot="R270">
-<attribute name="NAME" x="-33.9725" y="31.75" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="52" x="-26.67" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-27.94" y="31.75" size="1.27" layer="27"/>
+<element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="-21.59" y="34.29" smashed="yes" rot="R270">
+<attribute name="NAME" x="-26.035" y="32.7025" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="52" x="-21.59" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-22.86" y="31.75" size="1.27" layer="27"/>
 </element>
-<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="-26.67" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="-33.9725" y="38.1" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="52" x="-26.67" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-27.94" y="38.1" size="1.27" layer="27"/>
+<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="-21.59" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="-26.035" y="39.0525" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="52" x="-21.59" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-22.86" y="38.1" size="1.27" layer="27"/>
 </element>
-<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="-26.67" y="46.99" smashed="yes" rot="R270">
-<attribute name="NAME" x="-33.9725" y="44.45" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="52" x="-26.67" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-27.94" y="44.45" size="1.27" layer="27"/>
+<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="-21.59" y="46.99" smashed="yes" rot="R270">
+<attribute name="NAME" x="-26.035" y="45.4025" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="52" x="-21.59" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-22.86" y="44.45" size="1.27" layer="27"/>
 </element>
-<element name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="-26.67" y="21.59" smashed="yes" rot="R270">
-<attribute name="NAME" x="-33.9725" y="19.05" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="52" x="-26.67" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-27.94" y="19.05" size="1.27" layer="27"/>
+<element name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="-21.59" y="21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="-26.035" y="20.0025" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="52" x="-21.59" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-22.86" y="19.05" size="1.27" layer="27"/>
 </element>
 <element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-31.75" y="34.29" smashed="yes" rot="R180">
-<attribute name="NAME" x="-33.9725" y="35.56" size="1.27" layer="25"/>
+<attribute name="NAME" x="-33.3375" y="35.56" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="86" x="-31.75" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-31.75" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-31.115" y="36.83" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-31.75" y="21.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="-33.9725" y="22.86" size="1.27" layer="25"/>
+<attribute name="NAME" x="-33.3375" y="22.86" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="86" x="-31.75" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-31.75" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-31.115" y="24.13" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-31.75" y="40.64" smashed="yes">
-<attribute name="NAME" x="-33.9725" y="41.91" size="1.27" layer="25"/>
+<attribute name="NAME" x="-33.3375" y="41.91" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="86" x="-31.75" y="40.64" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-31.75" y="40.64" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-32.385" y="38.1" size="1.27" layer="27"/>
 </element>
 <element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-31.75" y="46.99" smashed="yes">
-<attribute name="NAME" x="-33.9725" y="48.26" size="1.27" layer="25"/>
+<attribute name="NAME" x="-33.3375" y="48.26" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="86" x="-31.75" y="46.99" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-31.75" y="46.99" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-32.385" y="44.45" size="1.27" layer="27"/>
@@ -2409,15 +2409,15 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="48.641" y="5.715" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-31.75" y="27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="-33.9725" y="29.21" size="1.27" layer="25"/>
+<attribute name="NAME" x="-33.3375" y="29.21" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="86" x="-31.75" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-31.75" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-31.115" y="30.48" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="-26.67" y="27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="-33.9725" y="25.4" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="52" x="-26.67" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-27.94" y="25.4" size="1.27" layer="27"/>
+<element name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="-21.59" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="-26.035" y="26.3525" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="52" x="-21.59" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-22.86" y="25.4" size="1.27" layer="27"/>
 </element>
 <element name="X1" library="con-phoenix-sptaf" package="SPTAF_1/3_3,5" value="SPTAF_1/3_3,5" x="-38.1" y="36.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="-45.72" y="40.005" size="2.54" layer="25" ratio="10"/>
@@ -2505,7 +2505,7 @@ Covered vias can be set in Masks (Limit).
 </polygon>
 <via x="36.195" y="-26.035" extent="1-16" drill="0.508"/>
 <via x="31.75" y="-27.94" extent="1-16" drill="0.508"/>
-<via x="41.91" y="-33.02" extent="1-16" drill="0.508"/>
+<via x="40.64" y="-33.02" extent="1-16" drill="0.508"/>
 <via x="36.195" y="-21.9075" extent="1-16" drill="0.508"/>
 <via x="38.1" y="13.97" extent="1-16" drill="0.508"/>
 <via x="-39.6875" y="-13.97" extent="1-16" drill="0.508"/>
@@ -2526,10 +2526,6 @@ Covered vias can be set in Masks (Limit).
 <contactref element="X4" pad="2A"/>
 <contactref element="LED1" pad="C"/>
 <contactref element="R6" pad="2"/>
-<wire x1="-25.62" y1="46.99" x2="-25.62" y2="44.865" width="0.508" layer="1"/>
-<wire x1="-25.62" y1="44.865" x2="-26.67" y2="43.815" width="0.508" layer="1"/>
-<wire x1="-26.67" y1="43.815" x2="-37.465" y2="43.815" width="0.508" layer="1"/>
-<via x="-37.465" y="43.815" extent="1-16" drill="0.508"/>
 <contactref element="J1" pad="1"/>
 </signal>
 <signal name="+5V">
@@ -2606,12 +2602,11 @@ Covered vias can be set in Masks (Limit).
 <wire x1="-32.7" y1="27.94" x2="-33.655" y2="27.94" width="0.508" layer="1"/>
 <wire x1="-33.655" y1="27.94" x2="-34.925" y2="29.21" width="0.508" layer="1"/>
 <wire x1="-34.925" y1="29.21" x2="-34.925" y2="35.56" width="0.508" layer="1"/>
-<wire x1="24.45" y1="42.23" x2="19.685" y2="37.465" width="0.508" layer="1"/>
-<wire x1="19.685" y1="37.465" x2="11.43" y2="37.465" width="0.508" layer="1"/>
+<wire x1="16.195" y1="42.23" x2="11.43" y2="37.465" width="0.508" layer="1"/>
 <via x="38.1" y="-0.635" extent="1-16" drill="0.508"/>
 <wire x1="38.1" y1="-0.635" x2="45.72" y2="-0.635" width="0.508" layer="16"/>
 <via x="45.72" y="-0.635" extent="1-16" drill="0.508"/>
-<via x="11.43" y="37.465" extent="1-16" drill="0.508"/>
+<via x="11.43" y="37.465" extent="1-16" drill="0.762"/>
 <wire x1="14.2875" y1="9.525" x2="15.24" y2="9.525" width="0.508" layer="16"/>
 <wire x1="11.43" y1="37.465" x2="11.43" y2="12.3825" width="0.508" layer="16"/>
 <wire x1="11.43" y1="12.3825" x2="14.2875" y2="9.525" width="0.508" layer="16"/>
@@ -2620,7 +2615,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="15.875" y1="9.525" x2="15.24" y2="9.525" width="0.508" layer="16"/>
 <wire x1="40.6375" y1="-21.59" x2="40.6375" y2="-3.1725" width="0.508" layer="1"/>
 <wire x1="40.32" y1="-21.9075" x2="40.6375" y2="-21.59" width="0.508" layer="1"/>
-<wire x1="27.94" y1="42.23" x2="24.45" y2="42.23" width="0.508" layer="1"/>
+<wire x1="27.94" y1="42.23" x2="16.195" y2="42.23" width="0.508" layer="1"/>
 <wire x1="27.94" y1="39.37" x2="27.94" y2="42.23" width="0.508" layer="1"/>
 <wire x1="40.64" y1="-24.46655" x2="40.64" y2="-21.9075" width="0.254" layer="1"/>
 <wire x1="40.64" y1="-21.9075" x2="40.32" y2="-21.9075" width="0.254" layer="1"/>
@@ -2705,12 +2700,12 @@ Covered vias can be set in Masks (Limit).
 <contactref element="IC1" pad="10"/>
 <wire x1="-34.61" y1="-16.51" x2="-33.02" y2="-16.51" width="0.508" layer="1"/>
 <wire x1="-33.02" y1="-16.51" x2="-27.94" y2="-11.43" width="0.508" layer="1"/>
-<wire x1="-27.94" y1="-11.43" x2="-27.94" y2="10.16" width="0.508" layer="1"/>
-<wire x1="-27.94" y1="10.16" x2="-17.78" y2="20.32" width="0.508" layer="1"/>
+<wire x1="-27.94" y1="-11.43" x2="-27.94" y2="8.89" width="0.508" layer="1"/>
+<wire x1="-27.94" y1="8.89" x2="-16.51" y2="20.32" width="0.508" layer="1"/>
 <via x="26.67" y="20.32" extent="1-16" drill="0.508"/>
 <wire x1="26.67" y1="20.32" x2="43.18" y2="36.83" width="0.508" layer="16"/>
 <wire x1="43.18" y1="36.83" x2="43.18" y2="39.37" width="0.508" layer="16"/>
-<wire x1="-17.78" y1="20.32" x2="26.67" y2="20.32" width="0.508" layer="1"/>
+<wire x1="-16.51" y1="20.32" x2="26.67" y2="20.32" width="0.508" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R9" pad="2"/>
@@ -2787,7 +2782,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="R10" pad="1"/>
 <contactref element="IC1" pad="11"/>
 <contactref element="R23" pad="2"/>
-<wire x1="36.83" y1="26.67" x2="-21.59" y2="26.67" width="0.508" layer="1"/>
+<wire x1="36.83" y1="26.67" x2="-16.51" y2="26.67" width="0.508" layer="1"/>
 <wire x1="40.64" y1="39.37" x2="40.64" y2="30.48" width="0.508" layer="1"/>
 <wire x1="40.64" y1="30.48" x2="36.83" y2="26.67" width="0.508" layer="1"/>
 <wire x1="29.53" y1="-30.45" x2="29.53" y2="-27.62" width="0.254" layer="1"/>
@@ -2797,8 +2792,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="34.29" y1="-20.955" x2="34.29" y2="12.7" width="0.254" layer="1"/>
 <wire x1="34.29" y1="12.7" x2="36.83" y2="15.24" width="0.254" layer="1"/>
 <wire x1="36.83" y1="15.24" x2="36.83" y2="26.67" width="0.254" layer="1"/>
-<wire x1="-21.59" y1="26.67" x2="-24.765" y2="29.845" width="0.508" layer="1"/>
-<wire x1="-24.765" y1="29.845" x2="-30.48" y2="29.845" width="0.508" layer="1"/>
+<wire x1="-16.51" y1="26.67" x2="-19.685" y2="29.845" width="0.508" layer="1"/>
+<wire x1="-19.685" y1="29.845" x2="-30.48" y2="29.845" width="0.508" layer="1"/>
 <wire x1="-30.48" y1="29.845" x2="-32.7" y2="32.065" width="0.508" layer="1"/>
 <wire x1="-32.7" y1="32.065" x2="-32.7" y2="34.29" width="0.508" layer="1"/>
 </signal>
@@ -2850,7 +2845,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="X5" pad="P$2"/>
 <contactref element="X4" pad="3A"/>
 <contactref element="X4" pad="3"/>
-<wire x1="38.1" y1="-33.02" x2="37.9" y2="-33.02" width="0.254" layer="1"/>
+<wire x1="38.1" y1="-33.02" x2="37.265" y2="-33.02" width="0.254" layer="1"/>
 <wire x1="31.43" y1="-33.05" x2="33.305" y2="-33.05" width="0.508" layer="1"/>
 <wire x1="33.305" y1="-33.05" x2="33.655" y2="-32.7" width="0.508" layer="1"/>
 <wire x1="31.43" y1="-33.05" x2="38.07" y2="-33.05" width="0.508" layer="1"/>
@@ -2870,17 +2865,17 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$10">
 <contactref element="LED3" pad="A"/>
 <contactref element="R23" pad="1"/>
-<wire x1="-27.72" y1="34.29" x2="-30.8" y2="34.29" width="0.508" layer="1"/>
+<wire x1="-22.64" y1="34.29" x2="-30.8" y2="34.29" width="0.508" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R21" pad="2"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="-27.72" y1="46.99" x2="-30.8" y2="46.99" width="0.508" layer="1"/>
+<wire x1="-22.64" y1="46.99" x2="-30.8" y2="46.99" width="0.508" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="LED2" pad="A"/>
 <contactref element="R22" pad="2"/>
-<wire x1="-27.72" y1="40.64" x2="-30.8" y2="40.64" width="0.508" layer="1"/>
+<wire x1="-22.64" y1="40.64" x2="-30.8" y2="40.64" width="0.508" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="R12" pad="2"/>
@@ -2896,9 +2891,9 @@ Covered vias can be set in Masks (Limit).
 <wire x1="-46.99" y1="30.0625" x2="-46.99" y2="2.8575" width="0.508" layer="16"/>
 <wire x1="-38.1" y1="33" x2="-38.1" y2="33.655" width="0.508" layer="1"/>
 <wire x1="-38.1" y1="33.655" x2="-33.3375" y2="38.4175" width="0.508" layer="1"/>
-<wire x1="-33.3375" y1="38.4175" x2="10.4775" y2="38.4175" width="0.508" layer="1"/>
-<wire x1="10.4775" y1="38.4175" x2="17.78" y2="45.72" width="0.508" layer="1"/>
-<wire x1="17.78" y1="45.72" x2="29.845" y2="45.72" width="0.508" layer="1"/>
+<wire x1="-33.3375" y1="38.4175" x2="9.8425" y2="38.4175" width="0.508" layer="1"/>
+<wire x1="9.8425" y1="38.4175" x2="17.145" y2="45.72" width="0.508" layer="1"/>
+<wire x1="17.145" y1="45.72" x2="29.845" y2="45.72" width="0.508" layer="1"/>
 <wire x1="-44.1325" y1="0" x2="-43.18" y2="0" width="0.508" layer="16"/>
 <wire x1="-43.18" y1="0" x2="-43.1" y2="0" width="0.508" layer="16"/>
 <wire x1="-38.1" y1="0" x2="-43.18" y2="0" width="0.762" layer="16"/>
@@ -2938,9 +2933,9 @@ Covered vias can be set in Masks (Limit).
 <contactref element="LED4" pad="C"/>
 <wire x1="35.56" y1="21.59" x2="31.4325" y2="25.7175" width="0.508" layer="1"/>
 <wire x1="35.56" y1="21.59" x2="35.56" y2="16.51" width="0.508" layer="1"/>
-<wire x1="-25.62" y1="27.94" x2="-24.13" y2="27.94" width="0.508" layer="1"/>
-<wire x1="-21.9075" y1="25.7175" x2="-24.13" y2="27.94" width="0.508" layer="1"/>
-<wire x1="-21.9075" y1="25.7175" x2="31.4325" y2="25.7175" width="0.508" layer="1"/>
+<wire x1="-20.54" y1="27.94" x2="-19.05" y2="27.94" width="0.508" layer="1"/>
+<wire x1="-16.8275" y1="25.7175" x2="-19.05" y2="27.94" width="0.508" layer="1"/>
+<wire x1="-16.8275" y1="25.7175" x2="31.4325" y2="25.7175" width="0.508" layer="1"/>
 </signal>
 <signal name="ULED2">
 <contactref element="IC1" pad="3"/>
@@ -2954,12 +2949,12 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$18">
 <contactref element="R24" pad="1"/>
 <contactref element="LED4" pad="A"/>
-<wire x1="-27.72" y1="27.94" x2="-30.8" y2="27.94" width="0.508" layer="1"/>
+<wire x1="-22.64" y1="27.94" x2="-30.8" y2="27.94" width="0.508" layer="1"/>
 </signal>
 <signal name="N$19">
 <contactref element="R25" pad="1"/>
 <contactref element="LED5" pad="A"/>
-<wire x1="-27.72" y1="21.59" x2="-30.8" y2="21.59" width="0.508" layer="1"/>
+<wire x1="-22.64" y1="21.59" x2="-30.8" y2="21.59" width="0.508" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="D1" pad="C"/>
