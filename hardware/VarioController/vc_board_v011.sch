@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -22622,7 +22622,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SMB" package3d_urn="urn:adsk.eagle:package:43404/2"/>
-<part name="J1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SJ1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -23007,7 +23007,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="NAME" x="20.32" y="140.1826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="20.32" y="137.3886" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="48.26" y="66.04" smashed="yes">
+<instance part="SJ1" gate="G$1" x="48.26" y="66.04" smashed="yes">
 <attribute name="VALUE" x="46.99" y="58.42" size="1.778" layer="96"/>
 <attribute name="NAME" x="46.99" y="71.882" size="1.778" layer="95"/>
 </instance>
@@ -23189,7 +23189,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="271.78" y1="43.18" x2="271.78" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="SJ1" gate="G$1" pin="1"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="55.88" y1="63.5" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="63.5" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
@@ -23668,7 +23668,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="PWS1" gate="PWS1" pin="REMOTE"/>
 <wire x1="71.12" y1="25.4" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="25.4" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="SJ1" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
