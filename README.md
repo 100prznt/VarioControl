@@ -1,3 +1,5 @@
+<img src="docu/icon_pumpe_RZ.svg" alt="Temp2IoT wiring" width="256" height="256" />
+
 # VarioControl
 IoT Pumpensteuerung für Vario Pumpen mit 0 – 10 V Schnittstelle.
 
