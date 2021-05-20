@@ -22,3 +22,28 @@ IoT Pumpensteuerung für Vario Pumpen mit 0 – 10 V Schnittstelle.
 
 
 ![VarioControl PCB BottomView v1.1](hardware/VarioController/VarioControl_PCB_BottomView_Green_v1.1.png)
+
+
+## AquaTechnix AquaVarioPlus
+
+![AquaVarioPlus Display PCB](docu/AquaTechnix_AquaVarioPlus_PCB.jpg)
+
+### Connector
+The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V interface. 
+
+#### Type
+Hersteller: JST (JAPAN SOLDERLESS TERMINALS)
+Typ: XHP-5 
+
+![JST XHP-5.png](docu/JST-XHP-5-1024x634.png)
+
+#### Pinning
+
+|----------------------------------------------------|
+| pin# | function | specification                    |     
+|----------------------------------------------------|
+| 1    | n/a      |                                  |
+| 2    | Signal   | 0 - 10 V                         |
+| 3    | PWM      | unknow specs?                    |
+| 4    | Signal   | 4 - 20 mA                        |
+| 5    | GND      |                                  |
