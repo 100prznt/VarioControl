@@ -32,10 +32,10 @@ IoT Pumpensteuerung für Vario Pumpen mit 0 – 10 V Schnittstelle.
 The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V interface. 
 
 #### Type
-|  |  |
-|--|--|
-| Manufacturer | JST (JAPAN SOLDERLESS TERMINALS) |
-| SKU          | XHP-5                            |
+|              |                                      |
+|--------------|--------------------------------------|
+| Manufacturer | __JST (JAPAN SOLDERLESS TERMINALS)__ |
+| SKU          | __XHP-5__                            |
 
 ![JST XHP-5.png](docu/JST-XHP-5-1024x634.png)
 
