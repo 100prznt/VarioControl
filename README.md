@@ -5,6 +5,12 @@ IoT Pumpensteuerung für Vario Pumpen mit 0 – 10 V Schnittstelle.
 
 ------------
 
+
+## Current build state
+
+![VarioControl PCB v1.1 in Spelsberg enclosure](docu/PCB_Unbestueckt_HW01_1_landscape.jpg)
+Unassembled PCB in matching Spelsberg enclosure.
+
 ## Hardware Features
 
 + 0 – 10 V Schnittstelle zur Drehzahlsteuerung einer Vario Pumpe
