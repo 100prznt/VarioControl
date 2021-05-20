@@ -31,6 +31,18 @@ IoT Pumpensteuerung für Vario Pumpen mit 0 – 10 V Schnittstelle.
 ### Connector
 The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V interface. 
 
+
+#### Pinning
+
+| pin# | function        | specification                    | in use with VarioControl |    
+|------|-----------------|----------------------------------|--------------------------|
+| 1    | n/a             |                                  | :heavy_multiplication_x: |
+| 2    | rpm value (U)   | 0 - 10 V                         | :heavy_check_mark:       |
+| 3    | PWM             | unknow specs?                    | :heavy_multiplication_x: |
+| 4    | rpm value (I)   | 4 - 20 mA                        | :heavy_multiplication_x: |
+| 5    | GND             |                                  | :heavy_check_mark:       |
+
+
 #### Type
 |              |                                      |
 |--------------|--------------------------------------|
@@ -44,12 +56,3 @@ Suitable contacts are listed in the data sheet on page 2.
 * [Datasheet JST XH Connector](docu/jst-xh.pdf)
 
 
-#### Pinning
-
-| pin# | function        | specification                    |     
-|------|-----------------|----------------------------------|
-| 1    | n/a             |                                  |
-| 2    | rpm value (U)   | 0 - 10 V                         |
-| 3    | PWM             | unknow specs?                    |
-| 4    | rpm value (I)   | 4 - 20 mA                        |
-| 5    | GND             |                                  |
