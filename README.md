@@ -1,7 +1,7 @@
 <img src="docu/icon_pumpe_RZ.svg" alt="Temp2IoT wiring" width="256" height="256" />
 
 # VarioControl
-IoT Pumpensteuerung für Vario Pumpen mit 0 – 10 V Schnittstelle.
+IoT pump control for Vario pumps with 0 - 10 V interface.
 
 ------------
 
@@ -13,13 +13,13 @@ Unassembled PCB in matching Spelsberg enclosure.
 
 ## Hardware Features
 
-+ 0 – 10 V Schnittstelle zur Drehzahlsteuerung einer Vario Pumpe
-+ WiFi Schnittstelle
-+ 1-wire Schnittstelle für zwei DS18B20 Temperatursensoren
-+ 0 – 10 V Eingang für einen Drucksensor (alt. auch 0 – 5 V oder 4 - 20 mA möglich)
-+ Schaltereingang zur Betriebsartvorwahl (AUTO – AUS – MANUELL)
-+ 5 LEDs zur Zustandsvisualisierung
-+ Weitbereichsspannungsversorgung (12 – 36 V)
++ 0 - 10 V interface for speed control of a Vario pump
++ WiFi interface
++ 1-wire interface for two DS18B20 temperature sensors
++ 0 - 10 V input for a pressure sensor (alt. also 0 - 5 V or 4 - 20 mA possible)
++ Switch input for operating mode preselection (AUTO - OFF - MANUAL)
++ 5 LEDs for status visualization
++ Wide range power supply (12 - 36 V)
 
 
 ## PCB
