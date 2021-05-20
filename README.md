@@ -41,10 +41,10 @@ The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V 
 
 #### Pinning
 
-| pin# | function | specification                    |     
-|------|----------|----------------------------------|
-| 1    | n/a      |                                  |
-| 2    | Signal   | 0 - 10 V                         |
-| 3    | PWM      | unknow specs?                    |
-| 4    | Signal   | 4 - 20 mA                        |
-| 5    | GND      |                                  |
+| pin# | function        | specification                    |     
+|------|-----------------|----------------------------------|
+| 1    | n/a             |                                  |
+| 2    | rpm value (U)   | 0 - 10 V                         |
+| 3    | PWM             | unknow specs?                    |
+| 4    | rpm value (I)   | 4 - 20 mA                        |
+| 5    | GND             |                                  |
