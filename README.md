@@ -39,6 +39,11 @@ The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V 
 
 ![JST XHP-5.png](docu/JST-XHP-5-1024x634.png)
 
+Suitable contacts are listed in the data sheet on page 2.
+
+* [Datasheet JST XH Connector](docu/jst-xh.pdf)
+
+
 #### Pinning
 
 | pin# | function        | specification                    |     
