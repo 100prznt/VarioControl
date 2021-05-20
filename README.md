@@ -51,7 +51,7 @@ The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V 
 #### Pinning
 
 | pin# | function        | specification                    | in use with VarioControl |    
-|------|-----------------|----------------------------------|--------------------------|
+|-----:|:----------------|:---------------------------------|:------------------------:|
 | 1    | n/a             |                                  | :heavy_multiplication_x: |
 | 2    | rpm value (U)   | 0 - 10 V                         | :heavy_check_mark:       |
 | 3    | PWM             | unknow specs?                    | :heavy_multiplication_x: |
