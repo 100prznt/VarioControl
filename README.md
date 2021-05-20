@@ -32,12 +32,20 @@ Unassembled PCB in matching Spelsberg enclosure. (2021/05/17)
 
 ## AquaTechnix AquaVarioPlus
 
+### Setup
+
+The external control of the AquaVarioPlus can be activated in the setup menu of the pump. This is described in detail in the manual (of the BADU Eco Soft, which has the same control) on page 9 an 10. The "Steuerart" (control type) 0 - 10 V, code 3 is required.
+
+* [Manual BADU EcoSoft](docu/BA_BADU_EcoSoft.pdf)
+
+
+### Connector
+
 ![AquaVarioPlus PCB](docu/AquaTechnix_AquaVarioPlus_PCB.jpg)
 Control board of the AquaVarioPlus pump from AquaTechnix.
 
 
-### Connector
-The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V interface. 
+The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V interface. See also [Manual BADU EcoSoft](docu/BA_BADU_EcoSoft.pdf) on page 7.
 
 
 #### Pinning
