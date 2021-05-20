@@ -32,7 +32,9 @@ Unassembled PCB in matching Spelsberg enclosure.
 
 ## AquaTechnix AquaVarioPlus
 
-![AquaVarioPlus Display PCB](docu/AquaTechnix_AquaVarioPlus_PCB.jpg)
+![AquaVarioPlus PCB](docu/AquaTechnix_AquaVarioPlus_PCB.jpg)
+Control board of the AquaVarioPlus pump from AquaTechnix.
+
 
 ### Connector
 The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V interface. 
