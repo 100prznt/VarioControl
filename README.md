@@ -60,10 +60,9 @@ The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V 
 
 
 #### Type
-|              |                                      |
-|--------------|--------------------------------------|
-| Manufacturer | __JST (JAPAN SOLDERLESS TERMINALS)__ |
-| SKU          | __XHP-5__                            |
+| Manufacturer                     | SKU       |
+|:---------------------------------|:----------|
+| JST (JAPAN SOLDERLESS TERMINALS) | __XHP-5__ |
 
 ![JST XHP-5.png](docu/JST-XHP-5-1024x634.png)
 
