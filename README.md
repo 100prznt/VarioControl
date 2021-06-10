@@ -8,8 +8,8 @@ IoT pump control for Vario pumps with 0 - 10 V interface.
 
 ## Current build state
 
-![VarioControl PCB v1.1 in Spelsberg enclosure](docu/PCB_Unbestueckt_HW01_1_landscape.jpg)
-Unassembled PCB in matching Spelsberg enclosure. (2021/05/17)
+![VarioControl PCB v1.1 in Spelsberg enclosure](docu/IMG_1805.jpg)
+Unassembled PCB in matching Spelsberg enclosure. (2021/06/06)
 
 ## Hardware Features
 
