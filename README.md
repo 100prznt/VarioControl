@@ -60,6 +60,8 @@ The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V 
 
 
 #### Type
+The plug used is probably a clone of the JST XH connector series, which has been modified to add an external locking mechanism. Plugs of this type are tricky to find, but an original XH plug from JST fits and holds very well.
+
 | Manufacturer                     | SKU       |
 |:---------------------------------|:----------|
 | JST (JAPAN SOLDERLESS TERMINALS) | __XHP-5__ |
