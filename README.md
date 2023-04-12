@@ -58,7 +58,7 @@ The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V 
 | 4    | rpm value (I)   | 4 - 20 mA                        | :heavy_multiplication_x: |
 | 5    | GND             |                                  | :heavy_check_mark:       |
 
-The control via the "PWM" input I have experimented with a frequency generator with various settings, unfortunately without success. I believe that the software implementation and a corresponding preselection of the external control is missing here.
+The control via the "PWM" input I have experimented with a frequency generator with various settings, unfortunately without success. I believe that the software implementation and a corresponding preselection of the control type is missing here.
 
 
 #### Type
