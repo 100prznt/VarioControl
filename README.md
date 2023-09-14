@@ -8,8 +8,8 @@ IoT pump control for Vario pumps with 0 - 10 V interface.
 
 ## Current build state
 
-![VarioControl PCB v1.1 in Spelsberg enclosure](docu/PCB_Unbestueckt_HW01_1_landscape.jpg)
-Unassembled PCB in matching Spelsberg enclosure. (2021/05/17)
+![VarioControl PCB v1.1 in Spelsberg enclosure](docu/IMG_1805.jpg)
+Unassembled PCB in matching Spelsberg enclosure. (2021/06/06)
 
 ## Hardware Features
 
@@ -58,8 +58,12 @@ The CN4 (pin 2) connector is provided for controlling the pump via the 0 - 10 V 
 | 4    | rpm value (I)   | 4 - 20 mA                        | :heavy_multiplication_x: |
 | 5    | GND             |                                  | :heavy_check_mark:       |
 
+The control via the "PWM" input I have experimented with a frequency generator with various settings, unfortunately without success. I believe that the software implementation and a corresponding preselection of the control type is missing here.
+
 
 #### Type
+The plug used is probably a clone of the JST XH connector series, which has been modified to add an external locking mechanism. Plugs of this type are tricky to find, but an original XH plug from JST fits and holds very well.
+
 | Manufacturer                     | SKU       |
 |:---------------------------------|:----------|
 | JST (JAPAN SOLDERLESS TERMINALS) | __XHP-5__ |
