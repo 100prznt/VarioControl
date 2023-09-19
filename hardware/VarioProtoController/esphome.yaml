@@ -24,7 +24,7 @@ api:
             id(pumpe_sollwert_sensor).publish_state(percentage);
 
 ota:
-  password: "b4da6bc301ef11e0242f6a2a1230fe63"
+  password: "xxxxxx"
 
 wifi:
   ssid: !secret wifi_ssid
@@ -33,7 +33,7 @@ wifi:
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Varioprotocontrol"
-    password: "im5uEF1JuNvO"
+    password: "xxxxxx"
 
 captive_portal:
 

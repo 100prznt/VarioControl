@@ -32,9 +32,12 @@ Alle Komponenten des Prototyps kommen vom Hersteller DFRobot und können ohne L�
 * Eingangsspannung ADS1115 max.: VDD + 0.3
 
 Für den Anschluss von Sensoren mit 0 - 10 V Schnittstelle ist ein Spannungsteiler vorzusehen.
-<<<<<<< Updated upstream
-=======
 
 ## ESPHome
 https://community.home-assistant.io/t/esphome-configuration-for-pwm-to-0-10v-output-sensor-and-control/296445/8
->>>>>>> Stashed changes
+
+
+### Sensoren
+* Drehzahl
+* Druck (1)
+* Temperatur (1)
