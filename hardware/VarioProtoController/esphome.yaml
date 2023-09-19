@@ -10,21 +10,8 @@ esp32:
 # Enable logging
 logger:
 
-# Enable Home Assistant API
-api:
-  encryption:
-    key: "xxxxxx"
-  services:
-    - service: set_pumpe_sollwert_percent
-      variables:
-        percentage: int
-      then:
-        - lambda: |-
-            id(pump_rpm) = percentage;
-            id(pumpe_sollwert_sensor).publish_state(percentage);
-
 ota:
-  password: "xxxxxx"
+  password: !secret ota_password
 
 wifi:
   ssid: !secret wifi_ssid
@@ -32,13 +19,32 @@ wifi:
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: "Varioprotocontrol"
-    password: "xxxxxx"
+    ssid: "VarioProtoControl"
+    password: !secret ap_password
 
+# Enable captive portal
 captive_portal:
 
+# Enable web server
+#web_server:
+#  port: 80
+#  version: 2
 
-# Example configuration entry for ESP32
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: !secret api_key
+#  services:
+#    - service: set_pumpe_sollwert_percent
+#      variables:
+#        percentage: int
+#      then:
+#        - lambda: |-
+#            id(pump_percent) = percentage;
+#            id(pump_percent_sensor).publish_state(percentage);
+
+# Configuration for DFRobot FireBeetle 2 ESP32-E
 i2c:
   sda: 21
   scl: 22
@@ -50,34 +56,13 @@ ads1115:
 
 gp8403:
   id: DFR0971
-  voltage: 5V
+  voltage: 10V
 
-sensor:
-  - platform: ads1115
-    multiplexer: 'A0_GND'
-    gain: 6.144
-    name: "ADS1115 Channel A0-GND"
-  - platform: template
-    name: "Pump Test Template Sensor"
-    id: pump_set_value_sensor
-    lambda: 'return id(pump_rpm);'
-    update_interval: 10s
-  - platform: template
-    name: "Pumpe Sollwert Sensor (Voltage)"
-    id: pumpe_sollwert_sensor
-    lambda: 'return id(pump_rpm);'
-    update_interval: 10s
-    unit_of_measurement: "%"
-    accuracy_decimals: 0
-    icon: "mdi:pulse"
-    on_value:
-      then:
-        - lambda: |-
-            id(pump_voltage).set_level(x/10);
 
 number:
   - platform: template
-    name: "Template number"
+    id: pump_power_number
+    name: "Pumpenleistung"
     optimistic: true
     min_value: 0
     max_value: 100
@@ -85,13 +70,37 @@ number:
     on_value:
       then:
         - lambda: |-
-            id(pump_rpm) = x;
-            id(pumpe_sollwert_sensor).publish_state(x);
+            id(pump_percent) = x;
+            id(pump_percent_sensor).publish_state(x);
 
 globals:
-   - id: pump_rpm
+   - id: pump_percent
      type: float
      initial_value: '0'  # 0..100
+
+sensor:
+  - platform: ads1115
+    id: ads1115_ch0_raw
+    multiplexer: 'A0_GND'
+    gain: 4.096
+    filters:
+    - multiply: 3.09324980380745
+    update_interval: 10s
+    name: "ADS1115 A0-GND"
+  - platform: template
+    name: "Pumpe Sollwert Sensor"
+    id: pump_percent_sensor
+    lambda: 'return id(pump_percent);'
+    update_interval: 10s
+    unit_of_measurement: "%"
+    accuracy_decimals: 0
+    icon: "mdi:pulse"
+    on_value:
+      then:
+        - lambda: |-
+            id(pump_voltage).set_level(x/100);
+  - platform: uptime
+    name: Uptime Sensor
 
 output:
   - platform: gpio
@@ -102,28 +111,36 @@ output:
     gp8403_id: DFR0971
     channel: 0
 
-switch:
-  - platform: template
-    name: "Pump Test Template Switch +1"
-    lambda: 'return false;'
-    turn_on_action:
-      - lambda: |-
-          id(pump_rpm) += 1;
-          if (id(pump_rpm) > 10) id(pump_rpm) = 10;
-          id(pump_voltage).set_level(id(pump_rpm)/10);
-          id(pump_set_value_sensor).publish_state(id(pump_rpm));
-
 button:
   - platform: template
-    name: "Pumpe Aus Button"
+    name: "Pumpenleistung +5%"
     on_press:
       - lambda: |-
-          id(pump_rpm) = 0;
+          id(pump_percent) += 5;
+          if (id(pump_percent) > 100) id(pump_percent) = 100;
+          id(pump_voltage).set_level(id(pump_percent)/100);
+          id(pump_power_number).publish_state(id(pump_percent));
+  - platform: template
+    name: "Pumpenleistung -5%"
+    on_press:
+      - lambda: |-
+          id(pump_percent) -= 5;
+          if (id(pump_percent) < 0) id(pump_percent) = 0;
+          id(pump_voltage).set_level(id(pump_percent)/100);
+          id(pump_power_number).publish_state(id(pump_percent));
+  - platform: template
+    name: "Pumpe Aus"
+    on_press:
+      - lambda: |-
+          id(pump_percent) = 0;
           id(pump_voltage).set_level(0);
-          id(pump_set_value_sensor).publish_state(0);
+          id(pump_power_number).publish_state(0);
 
 # Onboard RGB-LED
 light:
+  - platform: status_led
+    name: "State"
+    pin: GPIO2
   - platform: neopixelbus
     type: GRB
     variant: WS2811
