@@ -17,6 +17,8 @@ Alle Komponenten des Prototyps kommen vom Hersteller DFRobot und können ohne L�
 
 \*) Für den Anschluss der Temperatursensoren (DS18B20) ohne das DFRobot Gravity Shild müssen die Sensoren direkt mit einem entsprechenden Stecker (3-pin 2,54 mm) versehen werden.
 
+## Aufbau
+![Aufbau der Komponenten](prototype_vc.jpg)
 
 ## Funktionen
 ### Übersicht
